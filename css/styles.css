@@ -11,4 +11,14 @@ p {
   font-family: "Raleway", sans-serif;
 }
 
+.email {
+  width: 70%;
+}
+
+@media (min-width: 478px) {
+  .email {
+    width: 75%;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */

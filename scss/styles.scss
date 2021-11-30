@@ -11,6 +11,19 @@ p{
     font-family: 'Raleway', sans-serif;
 }
 
+
+
+
+    .email {
+        width: 70%;
+    }
+
+@media (min-width: 478px) {
+    .email {
+        width: 75%;
+    }
+}
+
 // .main-bod {
 //     display: flex;
 //     flex-direction: column;
