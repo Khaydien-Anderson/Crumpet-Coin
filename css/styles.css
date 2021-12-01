@@ -5,7 +5,9 @@ body {
   height: 100%;
 }
 
-html {
+html,
+body,
+.container {
   padding: env(safe-area-inset);
 }
 
