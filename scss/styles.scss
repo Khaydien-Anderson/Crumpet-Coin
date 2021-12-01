@@ -6,7 +6,9 @@ html,
 }
 html,
 body,
-.container {
+.container,
+.container-fluid,
+footer {
     padding: env(safe-area-inset);
   }
 
