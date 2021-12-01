@@ -4,6 +4,9 @@ html,
     padding: 0;
     height: 100%;
 }
+html {
+    padding: env(safe-area-inset);
+  }
 
 h1,
 h2,
