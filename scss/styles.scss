@@ -25,12 +25,8 @@ footer {
 
 
 
-html,
-body,
-main,
-.container,
-.container-fluid,
-footer {
+html
+ {
     padding: env(safe-area-inset);
   }
 
