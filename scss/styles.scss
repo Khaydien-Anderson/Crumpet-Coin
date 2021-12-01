@@ -1,11 +1,33 @@
-html,
- body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
+
+
+header {
+    height: 100vh;
+    background: url(/img/crumpcoin.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
 }
+
+main {
+    height: 50%;
+}
+
+span p {
+    font-size: smaller;
+    font-weight: lighter;
+}
+footer {
+    height: 30%;
+    position: relative;
+    top: 0;
+    bottom: 0;
+}
+
+
+
 html,
 body,
+main,
 .container,
 .container-fluid,
 footer {
@@ -14,8 +36,32 @@ footer {
 
 h1,
 h2,
-p{
+p,
+.labelFont {
     font-family: 'Raleway', sans-serif;
+}
+
+
+
+.arrow {
+    
+    display: flex;
+    flex-direction: column-reverse;
+    color: white;
+    font-size: 60px;
+    animation: blink 2s ease-in-out;
+}
+
+@keyframes blink {
+    
+    0%{
+        opacity: 0;
+
+    }
+   50% {
+        opacity: 0.7;
+    }
+    100%{opacity: 0.4;}
 }
 
 
