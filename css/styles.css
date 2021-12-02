@@ -1,3 +1,8 @@
+html {
+  padding: env(safe-area-inset);
+  margin: 0;
+}
+
 header {
   height: 100vh;
   background-image: url(../img/crumpcoin.gif);
@@ -22,8 +27,8 @@ footer {
   bottom: 0;
 }
 
-html {
-  padding: env(safe-area-inset);
+#thanks {
+  color: greenyellow;
 }
 
 h1,
