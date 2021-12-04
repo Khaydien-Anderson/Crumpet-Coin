@@ -13,8 +13,8 @@ const submitButton = document.querySelector('.submitButton');
 const emailField = document.querySelector('.emailField');
 const message = document.getElementById('emailHelp');
 
-function formSubmit() {
+// function formSubmit() {
     
-    message.innerHTML = '<p id="thanks">Thank you! Welcome to the Crumpet Community! #CMPT</p>'
+//     message.innerHTML = '<p id="thanks">Thank you! Welcome to the Crumpet Community! #CMPT</p>'
     
-}
+// }
