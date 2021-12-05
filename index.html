@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -13,6 +13,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;700&display=swap" rel="stylesheet">
     <title>Crumpet Coin || CMPT Project</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script type="text/javascript">
+(function() {
+emailjs.init("user_AAoUSCLmjLy7W5KLaf2zg");
+})();
+</script>
   </head>
   <body>
       <header class="container-fluid d-flex flex-row justify-content-center bg-black">
@@ -27,16 +33,17 @@
 
 
           <div class=" bg-black container-fluid email">
-              <form action="success.html">
+              <form >
             <label for="exampleInputEmail1" class=" text-light form-label labelFont ">Email address</label>
             <input type="email" class="emailField form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
             <div id="emailHelp" class="form-text">We'll never share your email with anyone else. We will just update you with our plans.</div>
           
       
           
-            <button type="submit" class="submitButton my-2 border border-white btn btn-secondary" style="font-family: 'Raleway', sans-serif;">Submit</button>
+            <a onclick="validateEmail()" class="submitButton my-2 border border-white btn btn-secondary"  style="font-family: 'Raleway', sans-serif;">Submit</a>
           </form>
           </div>
+
 
 
   </main>
@@ -45,9 +52,10 @@
 <footer class="container-fluid d-flex bg-dark flex-column-reverse align-items-center">
    
         <span><p class="text-light">Crumpet Copyright 2021 &copy;</p></span>
-        
+        <p class="token text-light text-center border ">Token address (BEP20):<br> 0x557c1C73e422eB56cCC955218BCf89d7021fF7C3 </p>
+        <p class="text-light text-center ">Info@crumpet-coin.com</p>
         <img class="img-fluid" src="img/PancakeSwap (CAKE).svg" width="150px" alt="Pancake Swap Logo">
-      
+        
    
 </footer>
 <script src="./js/app.js"></script>
